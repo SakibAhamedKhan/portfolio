@@ -1,0 +1,43 @@
+.banner{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    grid-column-gap: 50px;
+}
+
+.banner-part-1{
+    justify-self: right;
+    padding: 0 10px;
+}
+.banner-part-2{
+    justify-self: center;
+    padding: 0 10px;
+
+}
+
+@media screen and (max-width: 900px) {
+    .banner{
+        grid-template-columns: 1fr;
+    }
+    .banner-part-1{
+        justify-self: center;
+        margin-bottom: 30px;
+    }
+    .banner-part-2{
+        padding: 0 20px;
+    
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .banner-part-2{
+      justify-self: center;
+    }
+    .banner-part-2 p, h2{
+        text-align: center;
+    }
+    .banner-part-2 button{
+        display: block;
+        margin: 0 auto;
+    }
+}
