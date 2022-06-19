@@ -70,7 +70,7 @@ const Home = () => {
     console.log(page);
     return (
         <pageContext.Provider value={{controlPage: dispatch, page}}>
-            <div className='grid  sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-7 gap-4'>
+            <div  className='grid  sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-7 gap-4'>
                 <div className='lg:col-span-2'>
                     <Navbar></Navbar>
                 </div>
