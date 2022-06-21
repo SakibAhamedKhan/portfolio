@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../../asset/SakibProfile.jpg'
+import profile from '../../asset/SakibProfile2.png'
 import './Banner.css';
 import {AiFillLinkedin,AiFillGithub} from 'react-icons/ai';
 import {BsFacebook} from 'react-icons/bs';
